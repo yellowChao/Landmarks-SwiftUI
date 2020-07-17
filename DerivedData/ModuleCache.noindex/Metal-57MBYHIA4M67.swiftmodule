@@ -1,0 +1,44 @@
+---
+path:            '/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule'
+dependencies:
+  - mtime:           1593631537000000000
+    path:            '/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule'
+    size:            42316
+  - mtime:           1593598308000000000
+    path:            'usr/include/mach-o/dyld.modulemap'
+    size:            71
+    sdk_relative:    true
+  - mtime:           1593598308000000000
+    path:            'usr/include/mach-o/compact_unwind_encoding.modulemap'
+    size:            109
+    sdk_relative:    true
+  - mtime:           1593598308000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1593589318000000000
+    path:            'usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1593598307000000000
+    path:            'System/Library/Frameworks/Security.framework/Headers/Security.apinotes'
+    size:            162
+    sdk_relative:    true
+  - mtime:           1593598311000000000
+    path:            'System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes'
+    size:            80492
+    sdk_relative:    true
+  - mtime:           1593598306000000000
+    path:            'System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes'
+    size:            62729
+    sdk_relative:    true
+  - mtime:           1594002180000000000
+    path:            'System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes'
+    size:            29817
+    sdk_relative:    true
+  - mtime:           1593598310000000000
+    path:            'usr/lib/swift/Metal.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            13188
+    sdk_relative:    true
+version:         1
+...
