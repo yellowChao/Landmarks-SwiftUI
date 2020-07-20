@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>FC268D31-E864-4B44-99AF-57FD1C78C5C2</key>
+		<key>37A83A1B-A360-4C7C-9D64-E00E84381D35</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>FC268D31-E864-4B44-99AF-57FD1C78C5C2.xcactivitylog</string>
+			<string>37A83A1B-A360-4C7C-9D64-E00E84381D35.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>Landmarks-SwiftUI-bcenlcoqeymrgybznbssxjoiruyd</string>
 			<key>timeStartedRecording</key>
-			<real>616670343.53590906</real>
+			<real>616902315.257725</real>
 			<key>timeStoppedRecording</key>
-			<real>616670344.48190606</real>
+			<real>616902317.12364697</real>
 			<key>title</key>
 			<string>Build target Landmarks-SwiftUI</string>
 			<key>uniqueIdentifier</key>
-			<string>FC268D31-E864-4B44-99AF-57FD1C78C5C2</string>
+			<string>37A83A1B-A360-4C7C-9D64-E00E84381D35</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

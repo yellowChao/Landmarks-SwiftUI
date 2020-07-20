@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>00554103-4CEF-4938-A631-3EFFE8DBB888</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>00554103-4CEF-4938-A631-3EFFE8DBB888.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Landmarks-SwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Landmarks-SwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Landmarks-SwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>616902312.18904197</real>
+			<key>timeStoppedRecording</key>
+			<real>616902317.13327706</real>
+			<key>title</key>
+			<string>Build Landmarks-SwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>00554103-4CEF-4938-A631-3EFFE8DBB888</string>
+		</dict>
 		<key>2C40EADF-B8F6-4B8F-AE82-EAE8562E026A</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,74 @@
 			<string>Build for Previews Landmarks-SwiftUI</string>
 			<key>uniqueIdentifier</key>
 			<string>2C40EADF-B8F6-4B8F-AE82-EAE8562E026A</string>
+		</dict>
+		<key>65ED443C-481D-4F4A-9CAB-DD71E3740FFA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>65ED443C-481D-4F4A-9CAB-DD71E3740FFA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Landmarks-SwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Landmarks-SwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Landmarks-SwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>616669793.35439396</real>
+			<key>timeStoppedRecording</key>
+			<real>616669797.95460999</real>
+			<key>title</key>
+			<string>Build for Previews Landmarks-SwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>65ED443C-481D-4F4A-9CAB-DD71E3740FFA</string>
+		</dict>
+		<key>8EC5725E-C183-42BB-835F-D8A40ABBEE92</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8EC5725E-C183-42BB-835F-D8A40ABBEE92.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Landmarks-SwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Landmarks-SwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Landmarks-SwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>616669578.35720801</real>
+			<key>timeStoppedRecording</key>
+			<real>616669587.46132004</real>
+			<key>title</key>
+			<string>Build Landmarks-SwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>8EC5725E-C183-42BB-835F-D8A40ABBEE92</string>
 		</dict>
 	</dict>
 </dict>

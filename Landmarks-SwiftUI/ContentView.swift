@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("Joshua Tree National Park")
                     .font(.subheadline)
                 Spacer()
-                Text("California")
+                Text("California1")
                     .font(.subheadline)
             }
         }

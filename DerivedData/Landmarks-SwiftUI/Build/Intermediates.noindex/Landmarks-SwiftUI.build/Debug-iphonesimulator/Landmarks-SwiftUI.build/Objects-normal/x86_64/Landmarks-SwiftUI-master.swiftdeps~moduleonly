@@ -1,6 +1,6 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "a21c7f1e97780ae07839e620d562ce4e"
-build_time: [1595208849, 312794000]
+version: "Apple Swift version 5.3 (swiftlang-1200.0.16.13 clang-1200.0.22.25)"
+options: "3ff07eb9a7a2bb34aff76ef80f7f1565"
+build_time: [1595209515, 271150000]
 inputs:
-  "/Users/apple/Desktop/Landmarks-SwiftUI/Landmarks-SwiftUI/ContentView.swift": [1594980010, 356228202]
-  "/Users/apple/Desktop/Landmarks-SwiftUI/Landmarks-SwiftUI/Landmarks_SwiftUIApp.swift": !dirty [1594976993, 346165679]
+  "/Users/apple/Desktop/Landmarks-SwiftUI/Landmarks-SwiftUI/ContentView.swift": [1595209511, 669115531]
+  "/Users/apple/Desktop/Landmarks-SwiftUI/Landmarks-SwiftUI/Landmarks_SwiftUIApp.swift": [1594976993, 346165679]
