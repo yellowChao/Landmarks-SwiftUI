@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    var landmark: Landmark
+    
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinate: landmark.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
-            CircleImage()
+            CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
+                Text(landmark.name)
                     .font(.title)
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text(landmark.park)
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text(landmark.state)
                         .font(.subheadline)
                 }
             }
@@ -38,6 +40,6 @@ struct ContentView: View {
 //在这个值使用的时候编译器可以根据返回值进行类型推断得到具体类型。
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(landmark: landmarkData[1])
     }
 }
