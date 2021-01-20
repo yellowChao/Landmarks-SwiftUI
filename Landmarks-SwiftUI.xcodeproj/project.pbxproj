@@ -30,6 +30,8 @@
 		18F5840924C67A830025454F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5840824C67A830025454F /* Data.swift */; };
 		18F5840B24C67B470025454F /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5840A24C67B470025454F /* LandmarkRow.swift */; };
 		18F5840D24C686430025454F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5840C24C686430025454F /* LandmarkList.swift */; };
+		35F1964B25B8225E0053448A /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35F1964A25B8225E0053448A /* charleyrivers.jpg */; };
+		35F1964F25B82C0F0053448A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1964E25B82C0F0053448A /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,9 @@
 		18F5840824C67A830025454F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		18F5840A24C67B470025454F /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		18F5840C24C686430025454F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		35F1964825B7FFF20053448A /* Landmarks-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Landmarks-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		35F1964A25B8225E0053448A /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		35F1964E25B82C0F0053448A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 		18B79D3324C1A16C008B5C3C /* Landmarks-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				35F1964825B7FFF20053448A /* Landmarks-SwiftUI.entitlements */,
 				18D98E3C24C5495800A108EF /* Models */,
 				18D98E2124C548EA00A108EF /* Resources */,
 				18B79D3424C1A16C008B5C3C /* Landmarks_SwiftUIApp.swift */,
@@ -116,6 +122,7 @@
 		18D98E2124C548EA00A108EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				35F1964A25B8225E0053448A /* charleyrivers.jpg */,
 				18D98E2224C5490800A108EF /* landmarkData.json */,
 				18D98E2724C5491C00A108EF /* chilkoottrail.jpg */,
 				18D98E2B24C5491C00A108EF /* chincoteague.jpg */,
@@ -138,6 +145,7 @@
 			children = (
 				18F5840824C67A830025454F /* Data.swift */,
 				18D98E3D24C5497800A108EF /* Landmak.swift */,
+				35F1964E25B82C0F0053448A /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 				18D98E3A24C5491C00A108EF /* yukon_charleyrivers.jpg in Resources */,
 				18D98E3B24C5491C00A108EF /* rainbowlake.jpg in Resources */,
 				18D98E3924C5491C00A108EF /* silversalmoncreek.jpg in Resources */,
+				35F1964B25B8225E0053448A /* charleyrivers.jpg in Resources */,
 				18D98E3224C5491C00A108EF /* twinlake.jpg in Resources */,
 				18B79D3C24C1A16E008B5C3C /* Preview Assets.xcassets in Resources */,
 				18D98E3324C5491C00A108EF /* chilkoottrail.jpg in Resources */,
@@ -227,6 +236,7 @@
 				18D98E3E24C5497800A108EF /* Landmak.swift in Sources */,
 				18F5840924C67A830025454F /* Data.swift in Sources */,
 				18B79D3724C1A16C008B5C3C /* ContentView.swift in Sources */,
+				35F1964F25B82C0F0053448A /* UserData.swift in Sources */,
 				18F5840D24C686430025454F /* LandmarkList.swift in Sources */,
 				18B79D4624C53A9F008B5C3C /* MapView.swift in Sources */,
 				18B79D3524C1A16C008B5C3C /* Landmarks_SwiftUIApp.swift in Sources */,
@@ -359,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Landmarks-SwiftUI/Landmarks-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = N6VQQ58MBP;
@@ -371,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yellow.Landmarks-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Landmarks-SwiftUI/Landmarks-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = N6VQQ58MBP;
@@ -393,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yellow.Landmarks-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

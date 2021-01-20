@@ -8,17 +8,26 @@
 import SwiftUI
 
 struct LandmarkList: View {
+
+//    @State var isShowFavrited = false
+    @EnvironmentObject var userData: UserData
     var body: some View {
         // \.id 迭代对象中的keypath
+
         NavigationView {
-            
-            List(landmarkData) { landmark in
-                NavigationLink(destination: ContentView(landmark: landmark)) {
-                    LandmarkRow(landmark: landmark)
+            List{
+                Toggle(isOn: $userData.isShowFavoired, label: {
+                    Text("收藏开关")
+                })
+                ForEach(userData.landmarks) { landmark in
+                    if landmark.isFavorite || !self.userData.isShowFavoired  {
+                        NavigationLink(destination: ContentView(landmark: landmark)) {
+                            LandmarkRow(landmark: landmark)
+                        }
+                    }
                 }
             }
-          
-            .navigationTitle("Litst")
+            .navigationBarTitle("List")
         }
     }
 }

@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @EnvironmentObject var userData: UserData
     var landmark: Landmark
+
+    var currentIndex: Int {
+        userData.landmarks.firstIndex(where: { $0.id == landmark.id})!
+    }
     
     var body: some View {
         VStack {
@@ -19,8 +25,19 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text(landmark.name)
-                    .font(.title)
+
+                HStack {
+                    Text(landmark.name)
+                        .font(.title)
+                    Button(action: {
+                        userData.landmarks[currentIndex].isFavorite.toggle()
+                    }, label: {
+                        let isFavorite = userData.landmarks[currentIndex].isFavorite
+                        Image(systemName: "star.fill")
+                            .foregroundColor(isFavorite ? .yellow : .gray)
+                    })
+                }
+                
                 HStack {
                     Text(landmark.park)
                         .font(.subheadline)
@@ -32,6 +49,7 @@ struct ContentView: View {
             .padding()
             Spacer()
         }
+        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
