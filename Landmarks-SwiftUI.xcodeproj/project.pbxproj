@@ -34,6 +34,7 @@
 		35F1964F25B82C0F0053448A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1964E25B82C0F0053448A /* UserData.swift */; };
 		35F1966E25B835B00053448A /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1966D25B835B00053448A /* CategoryHome.swift */; };
 		35F1967325B94FF60053448A /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1967225B94FF60053448A /* CategoryRow.swift */; };
+		35F1967825B97EC00053448A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1967725B97EC00053448A /* ProfileHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		35F1964E25B82C0F0053448A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		35F1966D25B835B00053448A /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		35F1967225B94FF60053448A /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		35F1967725B97EC00053448A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				35F1964825B7FFF20053448A /* Landmarks-SwiftUI.entitlements */,
+				35F1967625B97C160053448A /* Profile */,
 				18D98E3C24C5495800A108EF /* Models */,
 				18D98E2124C548EA00A108EF /* Resources */,
 				18B79D3424C1A16C008B5C3C /* Landmarks_SwiftUIApp.swift */,
@@ -154,6 +157,14 @@
 				35F1964E25B82C0F0053448A /* UserData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		35F1967625B97C160053448A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				35F1967725B97EC00053448A /* ProfileHost.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 				35F1967325B94FF60053448A /* CategoryRow.swift in Sources */,
 				18D98E3E24C5497800A108EF /* Landmak.swift in Sources */,
 				18F5840924C67A830025454F /* Data.swift in Sources */,
+				35F1967825B97EC00053448A /* ProfileHost.swift in Sources */,
 				18B79D3724C1A16C008B5C3C /* ContentView.swift in Sources */,
 				35F1964F25B82C0F0053448A /* UserData.swift in Sources */,
 				35F1966E25B835B00053448A /* CategoryHome.swift in Sources */,
